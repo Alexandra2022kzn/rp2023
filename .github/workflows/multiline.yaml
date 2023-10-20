@@ -1,0 +1,10 @@
+on:
+    push
+jobs:
+    idle_multistep:
+        runs-on: ubuntu-latest
+        steps:
+            -
+                run: echo Idle Step
+                sleep 20
+                echo Waking Up
